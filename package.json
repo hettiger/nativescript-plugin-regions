@@ -1,0 +1,50 @@
+{
+  "name": "nativescript-plugin-regions",
+  "version": "1.0.0",
+  "description": "A NativeScript hook that allows setting the development region and known regions in the generated project.pbxproj file.",
+  "main": "index.js",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.4.0"
+    },
+    "hooks": [
+      {
+        "type": "after-prepare",
+        "script": "lib/after-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "iOS",
+    "Region",
+    "Localization",
+    "Language"
+  ],
+  "author": {
+    "name": "Martin Hettiger",
+    "email": "martin@hettiger.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hettiger/nativescript-plugin-regions/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/hettiger/nativescript-plugin-regions",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hettiger/nativescript-plugin-regions.git"
+  },
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "nativescript-hook": "^0.2.3",
+    "path": "^0.12.7",
+    "xcode": "^0.9.3"
+  }
+}
