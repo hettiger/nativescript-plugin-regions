@@ -61,7 +61,7 @@ In order to make iTunes Connect recognize a single language only you will need t
 
 Within Xcode apply the changes described in the following graphic.
 
-![Manual step](manual-step.png)
+![Manual step](https://cdn.rawgit.com/hettiger/nativescript-plugin-regions/023b53c2/manual-step.png)
 
 You will only have to make these manual changes when you are creating an archive for iTunes Connect.
 It doesn't really matter during development.
