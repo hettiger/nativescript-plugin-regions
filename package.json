@@ -1,11 +1,20 @@
 {
   "name": "nativescript-plugin-regions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NativeScript hook that allows setting the development region and known regions in the generated project.pbxproj file.",
   "main": "index.js",
   "nativescript": {
     "platforms": {
       "ios": "3.4.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "vue": "true",
+      "webpack": "true",
+      "category": "Developer",
+      "wrapper" : ""
     },
     "hooks": [
       {

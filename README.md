@@ -10,7 +10,7 @@ How to use
 ### Install
 
 ```bash
-tns install nativescript-plugin-regions
+tns plugin install nativescript-plugin-regions
 ```
 
 ### Configuration
